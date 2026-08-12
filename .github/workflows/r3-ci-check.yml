@@ -1,0 +1,9 @@
+name: r3 ci
+on:
+  workflow_dispatch:
+jobs:
+  check:
+    name: r3/ci-check
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
